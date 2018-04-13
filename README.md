@@ -4,14 +4,15 @@ temperatura y mensajes personalizados controlados por aplicatIvo Java, mediante 
 de microcontrolador ARDUINO UNO.
 
 # Descripción General
-El circuito desarrollado ejemplifica el trabajo una panatlla notificadora
+El circuito desarrollado ejemplifica el trabajo de una panatlla notificadora
 de mensajes hacia un usuario o destinatario  final. Dentro de los mensajes
 notificados, el sistema muestra la hora y temperatura en tiempo real en conjunto
-con una serie o lista de mensajes personalizados por el usuario final. Cabe a 
-destacar, que los mensajes deseados a mostrar por el usuario son introducidos 
-mediante un aplicativo Java que se enuentra en comunicación serial con el
-microcontrolador Arduino para el despliegue de mensajes (la comunicación serial 
-entre Java y ) 
+con una serie o lista de mensajes personalizados por el usuario. Finalmente, 
+los mensajes deseados a mostrar por el usuario son introducidos  mediante un 
+aplicativo Java que se enuentra en comunicación serial con el microcontrolador Arduino 
+para el despliegue de mensajes (la comunicación serial entre Java y Arduino se establece 
+por medio de la libreria y recusros de RXTX) y el mismo aplicativo puede establcer una 
+alarma en base a emisión de sonido que se activa según si el tiempo deseado se ha cumplido.
 
 ## Versión y precio 
 *Versión 1.0 realizada al 13/04/2018*
@@ -26,7 +27,7 @@ siguiente:
 * Equipo de computo trabajando con Sistema Operativo Windows, MacOS o alguna distribución Linux
 * Arduino IDE y drivers instalados en el equipo de computo para conexión de placa Arduino UNO al computador
 * 1 Buzzer
-* 2 Resistencias de 220 Ohms
+* 3 Resistencias de 220 Ohms
 * 2 Pulsadores
 * Sensor de Temperatura LM35
 * Conectores rápidos MM (20 Apróximadamente)
