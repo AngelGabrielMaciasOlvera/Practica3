@@ -1,3 +1,10 @@
+/*------------------------------Clase ControladoraMensajes.java-------------------
+    Clase que controla el despliegue de mensajes en panatalla LCD junto con Arduino, 
+    dicha clase se encarga de mantener un bucle infinito para hacer el despliegue constante
+    de mensajes y se encuentra en continua comparación para "detectar" si se desea cambiar
+    de mensaje y/o se ha cumplido el tiempo de activación de una alarma
+ */
+
 package Data;
 
 import Connection.ConexionArduino;
