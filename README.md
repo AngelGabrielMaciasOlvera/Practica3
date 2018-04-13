@@ -1,4 +1,4 @@
-## ========Alarma digitital con panatlla ilustradora de mensajes, tempertuara y hora con Arduino UNO========
+## ========Alarma digital con panatlla ilustradora de mensajes, tempertuara y hora en tiempo real con Arduino UNO========
 Proyecto de simulación del funcionamiento de un semáforo Méxicano
 utilizando el microcontrolador Arduino. 
 
@@ -20,11 +20,15 @@ siguiente:
 * Arduino IDE y drivers instalados en el equipo de computo para conexión de placa Arduino UNO al computador
 * 1 Buzzer
 * 2 Resistencias de 220 Ohms
+* 2 Pulsadores
+* Sensor de Temperatura LM35
 * Conectores rápidos MM (20 Apróximadamente)
 * Pantalla LCD de 16x2
 * Driver i2c
-* Sensor de temepartura i2c
-* JDK en
+* Contar con JDK y/o JVM en la computadora en la cual se ejecutará la aplicación Java 
+* IDE de desarrollo Java (NetBeans, Eclipse, etc).
+* Librería y archivos para comunicación vía puerto serial Rxtx (libre y disponible en http://rxtx.qbang.org/wiki/index.php/Download)
+
 
 ## =============Información de Contacto=============
 Elaborado por: Angel Gabriel Macias Olvera
@@ -33,7 +37,7 @@ Correo institucional de contacto: 14240623@itleon.edu.mx
 
 ## Derechos de Autor 
 El material mostrado para la elaboración del circuito digital 
-planteado es libre para su uso y modificación futura por cuslquier
+planteado es libre para su uso y modificación futura por cualquier
 colaborador
 
 
