@@ -24,7 +24,7 @@ import java.util.TooManyListenersException;
 public class ConexionArduino {
     //Variables para establecimiento de conexión
     private SerialPort serialPort;
-    private final String PUERTO = "COM3";
+    private final String PUERTO = "/dev/ttyACM0";
     private static final int TIMEOUT = 2000; // 2 segundos.
     private static final int DATA_RATE = 9600; // Baudios. 
     private OutputStream output = null;
