@@ -1,10 +1,17 @@
 ## ========Alarma digital con panatlla ilustradora de mensajes, tempertuara y hora en tiempo real con Arduino UNO========
-Proyecto de simulación del funcionamiento de un semáforo Méxicano
-utilizando el microcontrolador Arduino. 
+Proyecto de simulación del funcionamiento de una alarma digital con muestra de hora, 
+temperatura y mensajes personalizados controlados por aplicatIvo Java, mediante el uso 
+de microcontrolador ARDUINO UNO.
 
 # Descripción General
 El circuito desarrollado ejemplifica el trabajo una panatlla notificadora
-de mensajes hacia un 
+de mensajes hacia un usuario o destinatario  final. Dentro de los mensajes
+notificados, el sistema muestra la hora y temperatura en tiempo real en conjunto
+con una serie o lista de mensajes personalizados por el usuario final. Cabe a 
+destacar, que los mensajes deseados a mostrar por el usuario son introducidos 
+mediante un aplicativo Java que se enuentra en comunicación serial con el
+microcontrolador Arduino para el despliegue de mensajes (la comunicación serial 
+entre Java y ) 
 
 ## Versión y precio 
 *Versión 1.0 realizada al 13/04/2018*
