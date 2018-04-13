@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+    Clase que establece Conexión de Arduino con Computadora mediante comunicación de puerto
+    Nota: El nombre o especificación cambia según la computadora que se use y según el Sistema Operativo
+    con el que se trabaja. (para este ejemplo se trabajará ccon Linux, es por ello que el nombre del Puerto 
+    cambia con relación a otros Sistemas Operativos como Windows).
  */
 package Connection;
 
