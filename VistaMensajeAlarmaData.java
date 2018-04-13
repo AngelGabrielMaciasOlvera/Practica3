@@ -1,3 +1,11 @@
+ /*  ------------------- Clase VistaMensajeAlarmaData.java ---------------------------------  
+    Clase que establece la lógica o forma de trabajo de la interfaz gráfica planteada. En dicha clase
+    se implementa la interface ActionListener para asignar funcionalidad a los botones establecidos
+    en el JFrame planteado; además, se inicializa la la conexión a Arduino mediante una variable con 
+    apuntador a ConexionArduino.java y se inicializa el hilo encargado de desplegar los mensajes mostrados en 
+    pantalla con LCD en conjunto con Arduino con una variable con apuntador a ControladoraMensajes.java
+ */
+
 package Data;
 
 import Connection.ConexionArduino;
