@@ -365,73 +365,73 @@ char Decimal_to_ASCII(int entrada){
       salida='h'; 
     break; 
     case 105: 
-salida='i'; 
-break; 
-case 106: 
-salida='j'; 
-break; 
-case 107: 
-salida='k'; 
-break; 
-case 108: 
-salida='l'; 
-break; 
-case 109: 
-salida='m'; 
-break; 
-case 110: 
-salida='n'; 
-break; 
-case 111: 
-salida='o'; 
-break; 
-case 112: 
-salida='p'; 
-break; 
-case 113: 
-salida='q'; 
-break; 
-case 114: 
-salida='r'; 
-break; 
-case 115: 
-salida='s'; 
-break; 
-case 116: 
-salida='t'; 
-break; 
-case 117: 
-salida='u'; 
-break; 
-case 118: 
-salida='v'; 
-break; 
-case 119: 
-salida='w'; 
-break; 
-case 120: 
-salida='x'; 
-break; 
-case 121: 
-salida='y'; 
-break; 
-case 122: 
-salida='z'; 
-break; 
-case 123: 
-salida='{'; 
-break; 
-case 124: 
-salida='|'; 
-break; 
-case 125: 
-salida='}'; 
-break; 
-case 126: 
-salida='~'; 
-break; 
-}
-return salida;
+      salida='i'; 
+    break; 
+    case 106: 
+      salida='j'; 
+    break; 
+    case 107: 
+      salida='k'; 
+    break; 
+    case 108: 
+      salida='l'; 
+   break; 
+  case 109: 
+    salida='m'; 
+  break; 
+  case 110: 
+    salida='n'; 
+  break; 
+  case 111: 
+    salida='o'; 
+  break; 
+  case 112: 
+    salida='p'; 
+  break; 
+  case 113: 
+   salida='q'; 
+  break; 
+  case 114: 
+    salida='r'; 
+  break; 
+  case 115: 
+    salida='s'; 
+  break; 
+  case 116: 
+    salida='t'; 
+  break; 
+  case 117: 
+    salida='u'; 
+  break; 
+  case 118: 
+    salida='v'; 
+  break; 
+  case 119: 
+    salida='w'; 
+  break; 
+  case 120: 
+    salida='x'; 
+  break; 
+  case 121: 
+    salida='y'; 
+  break; 
+  case 122: 
+    salida='z'; 
+  break; 
+  case 123: 
+    salida='{'; 
+  break; 
+  case 124: 
+    salida='|'; 
+  break; 
+  case 125: 
+    salida='}'; 
+  break; 
+  case 126: 
+    salida='~'; 
+  break; 
+ }
+  return salida;
 }
 
 //Método para calcular la temperatura en Grados Centigradps
